@@ -1,0 +1,58 @@
+.URLInfo{
+    width: 230px;
+    height: 290px;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    border: 1px solid #eeeeee;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.url_info_header{
+    width: 100%;
+    height: 45px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.url_info_header_text{
+    margin: 0%;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: rgb(90, 90, 90);
+}
+
+.url_info_container{
+    width: 100%;
+    height: 45px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #dfdfdf;
+    margin-bottom: 3px;
+}
+
+.url_info_container_key{
+    margin: 0%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.url_info_container_value{
+    margin: 0%;
+    font-size: 12.5px;
+    color: rgb(90, 90, 90);
+}
+
+@media screen and (max-width: 740px) {
+    .URLInfo{
+        margin-right: 0px;
+        margin-bottom: 10px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .URLInfo{
+        width: 95vw;
+    }
+}

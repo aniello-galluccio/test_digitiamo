@@ -1,0 +1,70 @@
+.RequestBar{
+    width: 600px;
+    height: 50px;
+    margin: 20px auto 0px auto;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius:6px;
+}
+
+.request_bar_input{
+    flex-grow: 1;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.request_bar_submit{
+    margin-left: 10px;
+    height: 100%;
+    width: 100px;
+    border-radius:6px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #598cff;
+    cursor: pointer;
+}
+
+.request_bar_submit:hover{
+    background-color: #4879ec;
+}
+
+.request_bar_submit_text{
+    margin: 0%;
+}
+
+.request_bar_submit_icon{
+    display: none;
+}
+
+.request_bar_url_error{
+    color: red;
+    width: max-content;
+    margin: 10px auto 0 auto;
+}
+
+@media screen and (max-width: 740px) {
+    .request_bar_submit_text{
+        display: none;
+    }
+
+    .request_bar_submit_icon{
+        display: block;
+    }
+
+    .request_bar_submit{
+        width: max-content;
+    }
+}
+
+@media screen and (max-width: 631px) {
+    .RequestBar{
+        width: 95vw;
+    }
+}

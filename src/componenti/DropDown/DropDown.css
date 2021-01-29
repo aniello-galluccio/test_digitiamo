@@ -1,0 +1,47 @@
+.DropDown
+{
+    cursor: pointer;
+    position: relative;
+    border-radius:6px;
+    border: none;
+    outline: none;
+    width: 80px;
+    height: 100%;
+    background-color: #fdfdfd;
+    margin-right: 10px;
+}
+
+.drop_down_list
+{
+    background-color: white;
+    padding: 13px 0px 13px 0px;
+    position: absolute;
+    left: 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0,.26),0 2px 10px 0 rgba(0, 0, 0 ,.16);
+    border-radius: 3px;
+    margin-top: 15px;
+    font-size: 13px;
+    text-align: start;
+    animation: 0.2s ease-out 0s 1 openDropDown;
+    overflow: hidden;
+}
+
+.drop_down_list p{
+    margin: 0%;
+    padding: 13px 58px 13px 24px;
+}
+
+.drop_down_list p:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+@keyframes openDropDown {
+    0% {
+        font-size: 0px;
+        opacity: 0;
+    }
+    100% {
+        font-size: 13px;
+        opacity: 1;
+    }
+}

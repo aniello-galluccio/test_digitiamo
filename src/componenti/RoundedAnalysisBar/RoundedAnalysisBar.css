@@ -1,0 +1,146 @@
+.RoundedAnalysisBar{
+    position: relative;
+    margin: 20px auto 15% auto;
+}
+
+.left_circle{
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 100px;
+    background-color: #ff5555;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.right_circle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.right_circle_top{
+    width: 100%;
+    height: 28%;
+    background-color: #ffd221;
+}
+
+.right_circle_center{
+    width: 100%;
+    height: 40%;
+    background-color: #77e6b4;
+}
+
+.right_circle_bottom{
+    width: 100%;
+    height: 32%;
+    background-color: rgb(91, 207, 155);
+}
+
+.circle_cover{
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle_cover_2{
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.rounded_analysis_bar_info{
+    position: absolute;
+    width: max-content;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.round_analysis_bar_info_text{
+    margin: 0%;
+    width: max-content;
+    font-size: 30px;
+    font-weight: 600;
+    color: #cfcfcf;
+    margin: auto;
+}
+
+.round_analysis_bar_info_second{
+    color: #5e5e5e;
+}
+
+.rounded_analysis_bar_punteggio{
+    position: absolute;
+    width: max-content;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.rounded_analysis_bar_punteggio_number{
+    width: max-content;
+    margin: 0%;
+    font-size: 28px;
+    margin: auto;
+}
+
+.rounded_analysis_bar_punteggio_text
+{
+    font-size: 24px;
+}
+
+.rounded_analysis_bar_pointer{
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+}
+
+.rounded_analysis_bar_pointer_cover{
+    margin: auto;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.rounded_analysis_bar_pointer_container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.rounded_analysis_bar_numberon{
+    margin: 0%;
+    font-size: 11px;
+    position: absolute;
+}
+
+.rounded_analysis_bar_numberon_600{
+    left: 50%;
+    top: -15px;
+    transform: translate(-50%);
+}
+
+.rounded_analysis_bar_numberon_700{
+    right: -25px;
+    top: 23%;
+    transform: translate(-50%);
+}
+
+.rounded_analysis_bar_numberon_800{
+    right: -25px;
+    top: 64%;
+    transform: translate(-50%);
+}

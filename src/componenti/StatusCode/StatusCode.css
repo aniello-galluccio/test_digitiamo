@@ -1,0 +1,16 @@
+.StatusCode{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+
+.status_code_number{
+    width: max-content;
+    margin: 0px auto 0px auto;
+    font-size: 50px;
+}
+
+.status_code_text{
+    width: max-content;
+    margin: 0px auto 0px auto;
+}
